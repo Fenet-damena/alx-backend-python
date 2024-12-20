@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
-"""Type-annotated function to_kv"""
-from typing import Union, Tuple
+"""Write a type-annotated function to_kv"""
+from typing import Tuple, Union
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
-    """Returns tuple of a string and a float"""
-    x = v ** 2
-    return (k, x)
+    """Convert str and int/float into key and value tuple
+
+    Args:
+        k (str): key
+        v (Union[int, float]): value
+
+    Return:
+        (Tuple): key and value pairs
+    """
+    return (k, v**2)

@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
-"""Type-annotated function floor"""
+"""Write a type-annotated function to_str"""
 
 
 def to_str(n: float) -> str:
-    """Takes a float and returns its str repr"""
+    """String representation of float
+
+    Args:
+        n (float): float to convert to string
+
+    Return
+        (str): string representation of float
+    """
     return str(n)

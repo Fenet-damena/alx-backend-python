@@ -1,13 +1,9 @@
-# Python Backend - ALX & Holberton School
+# alx-backend-python
 
-## Description
-This repository contains programs written for the specialization section.
+## directories in repository
 
-
-## Structure
-
-
-* [0x00. Python - Variable Annotations](./0x00-python_variable_annotations/)
-* [0x01. Python - Async](./0x01-python_async_function/)
-* [0x02. Python - Async Comprehension](./0x02-python_async_comprehension/)
-* [0x02. Python -  0x03. Unittests and Integration Tests](./0x03-Unittests_and_integration_tests/)
+| directory                        | description                |
+| -------------------------------- | -------------------------- |
+| 0x00-python_variable_annotations | Python variable annotation |
+| 0x01-python_async_function       | python async function      |
+| 0x02-python_async_comprehension  | python async comprehension |
